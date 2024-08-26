@@ -6,6 +6,7 @@ on:
       - '**'
   pull_request:
   workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: write # to fetch code (actions/checkout) and submit dependency graph (gradle/gradle-build-action)
